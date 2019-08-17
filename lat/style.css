@@ -1,0 +1,162 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #e6e6e6;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+/* side bar*/
+
+aside{
+    width: 250px;
+    height: 100vh;
+    min-width: 250px;
+    background-color: white;
+    overflow: auto;
+}
+
+aside h2{
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+aside h2 i{
+    width: 50px;
+    font-size: 20px;
+    color: #888;                                                                                                                                                                                                                                                              
+}
+
+aside p{
+    width: 80%;
+    padding: 10px 5px;
+    margin-left: 15px;                                     
+    font-size: 18px;
+    color: #888;
+    border-bottom: 2px solid #b3b3b3;
+}
+
+aside ul{                                        
+    width: 100%;               
+    display: block;
+    padding: 20px 0px;
+    margin-top: 10px;
+}
+
+aside ul li{
+    width: 100%;
+    padding: 12px 20px;
+    display: block;
+}
+
+aside ul li:hover{
+    width: 100%;
+    background-color: #e6e6ff;
+}
+
+aside ul li i{
+    width: 50px;
+    font-size: 18px;
+    color: #888;
+}
+
+aside ul li a{
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    color: #888;
+}
+
+aside ul li a:hover{
+    color: #3333ff;
+}
+
+/* right layout */
+
+.right-layout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+
+.right-layout .head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: auto;
+    height: 50px;
+    background-color: #3333ff;
+}
+
+.head i{
+    padding-left: 10px;
+    font-size: 35px;
+    color: white;
+}
+
+.head .welcome{
+    margin-left: 84%;
+    font-size: 15px;
+    color: white;
+}
+
+.head .admin{
+    padding: 5px 20px;
+    margin-left: 30px;
+    font-size: 15px;
+    color: #3333ff;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.right-layout .content{
+    width: 96%;
+    min-width: 96%;
+    margin-top: 50px;
+    align-self: center;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.content h1{
+    padding: 20px 30px;
+    font-size: 50px;
+}
+
+.content .p1{
+    width: 96%;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    margin-left: 15px;
+    color: #888;
+    border-bottom: 2px solid #b3b3b3; 
+}
+
+.content .p2{
+    padding: 20px 30px;
+}
+
+.content input{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3333ff;
+    border: 1px solid #3333ff;
+    border-radius: 5px;
+}
+
+.content input:hover{
+    color: #3333ff;
+    background-color: white;
+}
