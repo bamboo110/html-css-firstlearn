@@ -52,31 +52,29 @@ aside ul{
 }
 
 aside ul li{
-    width: 100%;
-    padding: 12px 20px;
+    width: 250px;
+    min-width: 250px;
     display: block;
-}
-
-aside ul li:hover{
-    width: 100%;
-    background-color: #e6e6ff;
-}
-
-aside ul li i{
-    width: 50px;
-    font-size: 18px;
-    color: #888;
 }
 
 aside ul li a{
     width: 100%;
-    font-size: 18px;
+    padding: 15px 100% 15px 20px;
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
     color: #888;
 }
 
+aside ul li a i{
+    width: 50px;
+
+}
+
 aside ul li a:hover{
     color: #3333ff;
+    background-color: #e6e6ff;
+    border-left: 3px solid #3333ff;
 }
 
 /* right layout */
