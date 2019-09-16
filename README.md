@@ -16,5 +16,5 @@
 
 ## Screenshot from the project
 <p align='center'>
-      <image width="500" src="first-learn.PNG" />
+      <image width="500" src="lat/first-learn.PNG" />
 </p>
